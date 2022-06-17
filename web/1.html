@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form name="punchout_form" method="post"
+      action="https://openapi.alipaydev.com/gateway.do?charset=utf-8&method=alipay.trade.page.pay&sign=sjB6sCuOSYaSmz7oGeJn5og5D7KPtX1PKznvSnnPXOu2ZuNqD15%2Bg7EsIffWTHY8R6UPANbl0hbTI7Pl3o2n9rdsTimdSANMj7QsUFM6Sr87IzHptE4YS8%2F69iecISq8%2F5LjTpJDtwCU83bPni0suFlJ0KePYKrbnkI0CAkln3jgG68xTBNRnANbzh03X%2BhIuxSgs3AVvbAd31sHszXgkpIMcnCl%2BvwpJXl%2F6WhlXczExYkUa4%2F46MpCMwU1XPe%2Fo0f7WC567fOo6sbyfdvRnbgrgJYkqGpsmUdriowtkmtx1%2FEG4rktp2XWiyC6alwZ5Mbou%2FE%2BZaxxvj13H6Qn%2Bg%3D%3D&return_url=http%3A%2F%2F127.0.0.1%2Falipay.trade.page.pay-JAVA-UTF-8%2Freturn_url.jsp&notify_url=http%3A%2F%2F127.0.0.1%2Falipay.trade.page.pay-JAVA-UTF-8%2Fnotify_url.jsp&version=1.0&app_id=2021000120698416&sign_type=RSA2&timestamp=2022-06-15+15%3A16%3A19&alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json">
+    <input type="hidden" name="biz_content"
+           value="{&quot;out_trade_no&quot;:&quot;2022615151521368&quot;,&quot;total_amount&quot;:&quot;0.01&quot;,&quot;subject&quot;:&quot;测试&quot;,&quot;body&quot;:&quot;&quot;,&quot;product_code&quot;:&quot;FAST_INSTANT_TRADE_PAY&quot;}">
+    <input type="submit" value="立即支付" style="display:none">
+</form>
+<script>document.forms[0].submit();</script>
+</body>
+</html>
